@@ -12,8 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^24.0.1",
-    "ethers": "^6.14.4",
+    "ethers": "^6.14.4"
+  },
+  "devDependencies": {
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   }
 }

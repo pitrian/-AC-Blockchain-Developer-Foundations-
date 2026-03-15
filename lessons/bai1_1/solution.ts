@@ -1,3 +1,4 @@
+import crypto from "crypto";
 
 export type Block = {
   index: number;
@@ -7,7 +8,18 @@ export type Block = {
   current_hash: string;
 };
 
-// ✍️ TODO: Viết hàm tại đây
 export function isValidBlock(block: Block): boolean {
-  return false; // Chỉnh lại logic
+
+  const value =
+    block.index +
+    block.timestamp +
+    JSON.stringify(block.transactions) +
+    block.previous_hash;
+
+  const hash = crypto
+    .createHash("sha256")
+    .update(value)
+    .digest("hex");
+
+  return hash === block.current_hash;
 }
