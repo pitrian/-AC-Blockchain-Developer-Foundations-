@@ -54,21 +54,21 @@ R5.BUG BOUNTY/AUDIT CONTEST RANKING **IMMUNEFI/CODE4RENA/SHERLOCK
 6.FLASH LOAN ATTACK- HACKER YONG HEN DA QIAN IN 1 TRANSACTION--POPULAR HACK DEFI
 7.DENIAL OF SERVICE--DOS
 
-🗺️ Roadmap Security Researcher
-Step 1
-    hiểu sâu:
-        EVM
-        smart contract bug
-Step 2
-    luyện exploit
-    challenge:
-        Ethernaut
-        Damn Vulnerable DeFi
-Step 3
-    bug bounty
-    platform: Immunefi
-Step 4
-    research
-    hack analysis
-    security blog
-    new vulnerability
+	🗺️ Roadmap Security Researcher
+	Step 1
+		hiểu sâu:
+			EVM
+			smart contract bug
+	Step 2
+		luyện exploit
+		challenge:
+			Ethernaut
+			Damn Vulnerable DeFi
+	Step 3
+		bug bounty
+		platform: Immunefi
+	Step 4
+		research
+		hack analysis
+		security blog
+		new vulnerability
