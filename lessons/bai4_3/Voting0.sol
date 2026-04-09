@@ -1,3 +1,4 @@
+////Phiên bản đầu tiên, gặp bug là có thể vote trùng ứng viên, mổi người có thể vote 1 ứng viên nhiều lần và số vote vẩn tăng dần.
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 contract Voting {
