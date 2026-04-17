@@ -1,0 +1,4 @@
+transaction fee được tính bằng cách nào
+1. task muốn làm là gì
+2. context là gì
+3. reference
