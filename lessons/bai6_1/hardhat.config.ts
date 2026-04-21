@@ -21,7 +21,7 @@ const {
 module.exports = {
   networks: {
     "sepolia": {
-      url: "https://eth-sepolia.public.blastapi.io",
+      url: "https://eth-sepolia.g.alchemy.com/v2/Ex268gQrSZ0HLzNlQtODQ",
       chainId: 11155111,
       accounts: [testnetPrivateKey],
       timeout: 40000,
