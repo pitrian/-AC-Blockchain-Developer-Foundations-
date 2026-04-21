@@ -1,13 +1,13 @@
 import { ethers } from "ethers";
 
 async function main() {
-  const provider = new ethers.JsonRpcProvider("https://eth-sepolia.public.blastapi.io");
+  const provider = new ethers.JsonRpcProvider("https://eth-sepolia.g.alchemy.com/v2/Ex268gQrSZ0HLzNlQtODQ");
 
   const abi = [
     "function getCount() public view returns (uint)",
     "function increment() public"
   ];
-  const contractAddress = "0x41d0Ad4E6227062B59CA673B418Fc00E3A2d10Cf"; // Replace with your contract address
+  const contractAddress = "0xC8356e9AFFCa83ED6903fe5Beb618736D034D2BD";
 
   const contract = new ethers.Contract(contractAddress, abi, provider);
 
