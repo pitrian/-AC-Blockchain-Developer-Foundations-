@@ -7,7 +7,7 @@
 
 ## ✅ Yêu cầu
 
-1. Viết contract `MyMintableToken`:
+1. Viết contract `MyMintableTokena`:
    - Kế thừa ERC20
    - Hàm `mint(address to, uint amount)` chỉ owner gọi được
 
