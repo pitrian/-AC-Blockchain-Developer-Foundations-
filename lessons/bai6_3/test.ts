@@ -10,7 +10,7 @@ async function main() {
   const wallet = new ethers.Wallet(privateKey, provider);
   const deployerAddress = wallet.address;
   
-  const contractAddress = "0x3BEFB1cdED6b08aC4f372b5356a6eDe0F99641DD";
+  const contractAddress = "0xe713B4d25F7EE354D64e2b09EAB0a24765Ebf694";
   
   const abi = [
     "function ownerOf(uint256 tokenId) view returns (address)",

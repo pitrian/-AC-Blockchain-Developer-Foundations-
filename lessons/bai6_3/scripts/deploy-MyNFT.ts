@@ -12,7 +12,7 @@ async function main() {
   console.log("Deployer:", deployer.address);
   console.log("====================");
 
-  const MyNFT = await ethers.getContractFactory("MyNFT", deployer);
+  const MyNFT = await ethers.getContractFactory("contracts/MyNFT.sol:MyNFT", deployer);
 
   console.log("Deploying MyNFT...");
 
