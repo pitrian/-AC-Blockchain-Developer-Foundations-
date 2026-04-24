@@ -1,0 +1,28 @@
+{
+  "name": "bai7_2",
+  "version": "0.1.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "hardhat": "^2.19.5",
+    "hardhat-deploy": "^0.12.4",
+    "truffle-flattener": "^1.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@openzeppelin/contracts": "^5.2.0",
+    "chai": "^6.2.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.5",
+    "hardhat-deploy-ethers": "^0.4.2"
+  }
+}
