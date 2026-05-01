@@ -1,0 +1,23 @@
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons$ cd bai7_1
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai7_1$ ls
+README.md  artifacts  cache  contracts  hardhat.config.ts  node_modules  package-lock.json  package.json  scripts  test.ts  tsconfig.json
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai7_1$ npx hardhat compile
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+Nothing to compile
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai7_1$ npx hardhat compilenpx hardhat run scripts/deploy-MyMintableTokena.ts --network sepolia^C
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai7_1$ npx hardhat run scripts/deploy-MyMintableTokena.ts --network sepolia
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+====================
+Network: sepolia
+Deployer: 0xB60301D7957aC680c7aD4d1AD6f4B57443728354
+====================
+Deploying MyMintableTokena...
+✅ MyMintableTokena deployed at: 0x7c3E8257Dc7FDbE58e32E0467238F8eEcCb07234
+====================
+Balance of deployer: 1000.0 CR3
+====================
+
+Owner can mint more tokens using:
+await contract.mint(toAddress, amount)
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai7_1$ npx ts-node test.ts
+====================

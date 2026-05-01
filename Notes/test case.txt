@@ -1,0 +1,13 @@
+dừng: dừng đinh kỳ hay dừng tán công,biết khi nào bị tấn công
+ tham số nào để đối chiếu,
+
+-rút được, tiền còn lại đối chiếu làm sao 
+
+-3 loại tiền: nó chuyển đi đâu
+tổng số tiền có được audit (đối sát đối chiếu về sau)hay không ? How?
+
+-case nào tiền không được di chuyển
+
+rút tiền thì cả 3 tiền đều di chuyển
+
+-vault chỉ còn tiền đủ để trả gốc thôi, thiếu tiền lai thì cho user rút không

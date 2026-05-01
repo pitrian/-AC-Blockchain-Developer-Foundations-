@@ -1,0 +1,388 @@
+increment() write
+getCount() read -view/pure
+
+
+
+biên dịch c,c++c#, python	
+thông dich: javascript
+
+==========================
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ ls
+ -AC-Blockchain-Developer-Foundations-  'câu hỏi tuần 2.txt'
+'Smart Contract Security'               'câu hỏi tuần 3.txt'
+'Smart contract'                        'câu hỏi tuần 4.txt'
+'Tuan 1'
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd -AC-Blockchain-Developer-Foundations-/
+bash: cd: -A: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ ls
+ -AC-Blockchain-Developer-Foundations-  'câu hỏi tuần 2.txt'
+'Smart Contract Security'               'câu hỏi tuần 3.txt'
+'Smart contract'                        'câu hỏi tuần 4.txt'
+'Tuan 1'
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd -AC-Blockchain-Developer-Foundations-/
+bash: cd: -A: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd /-AC
+-Blockchain-Developer-Foundations-/
+bash: cd: /-AC-Blockchain-Developer-Foundations-/: No such file or directory
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd 
+-AC-Blockchain-Developer-Foundations-/
+Smart Contract Security/
+Smart contract/
+Tuan 1/
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd -AC-Blockchain-Developer-Foundations-
+bash: cd: -A: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd /-AC-Blockchain-Developer-Foundations-c^C
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd -AC-Blockchain-Developer-Foundations-/
+.git/         lessons/      node_modules/ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd -AC-Blockchain-Developer-Foundations-/lessons/bai5_2/
+bash: cd: -A: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd 
+-AC-Blockchain-Developer-Foundations-/
+Smart Contract Security/
+Smart contract/
+Tuan 1/
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd./ -A
+C-Blockchain-Developer-Foundations-/lessons/bai5_2/
+bash: cd./: No such file or directory
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd./ -AC-Blockchain-Developer-Foundations-/lessons
+bash: cd./: No such file or directory
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd ./-A
+C-Blockchain-Developer-Foundations-/lessons/bai5_2/
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2$ ls
+README.md  test.ts
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2$ git clone https://github.com/pitrian/ac-hardhat-template.git
+Cloning into 'ac-hardhat-template'...
+remote: Enumerating objects: 27, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 27 (delta 2), reused 27 (delta 2), pack-reused 0 (from 0)
+Receiving objects: 100% (27/27), 135.88 KiB | 1.70 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2$ ls
+README.md  ac-hardhat-template  test.ts
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Bloc
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHminhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIminhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONEminhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Bloc
+kchain-Developer-Foundations-/lessons/bai5_2$ cd ../../
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-$ ls
+LICENSE    ROADMAP.MD  lessons       package-lock.json  questions_interview.md  tsconfig.json
+README.md  index.ts    node_modules  package.json       run.ts
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-$ cd ./-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/
+bash: cd: ./-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/: No such file or directory
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-$ ls
+LICENSE    ROADMAP.MD  lessons       package-lock.json  questions_interview.md  tsconfig.json
+README.md  index.ts    node_modules  package.json       run.ts
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-$ cd lessons/
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons$ ls
+bai1_1  bai2_3  bai3_2  bai4_2  bai5_2  bai6_1  bai7_1
+bai2_1  bai3_1  bai4_1  bai4_3  bai5_3  bai6_3  bai7_2
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons$ cd bai5_2
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2$ ls
+README.md  ac-hardhat-template  test.ts
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2$ cd ac-hardhat-template/
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ cd ac-hardhat-template
+npm install --legacy-peer-deps
+bash: cd: ac-hardhat-template: No such file or directory
+npm warn deprecated glob@8.1.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm error code 1
+npm error git dep preparation failed
+npm error command /home/minhchung/.nvm/versions/node/v20.20.2/bin/node /home/minhchung/.nvm/versions/node/v20.20.2/lib/node_modules/npm/bin/npm-cli.js install --force --cache=/home/minhchung/.npm --prefer-offline=false --prefer-online=false --offline=false --no-progress --no-save --no-audit --include=dev --include=peer --include=optional --no-package-lock-only --no-dry-run
+npm error npm warn using --force Recommended protections disabled.
+npm error npm error code E404
+npm error npm error 404 Not Found - GET https://registry.npmjs.org/@ethereumjs%2ftestdata - Not found
+npm error npm error 404
+npm error npm error 404  '@ethereumjs/testdata@1.0.0' is not in this registry.
+npm error npm error 404
+npm error npm error 404 Note that you can also install from a
+npm error npm error 404 tarball, folder, http url, or git url.
+npm error npm error A complete log of this run can be found in: /home/minhchung/.npm/_logs/2026-04-16T11_48_01_741Z-debug-0.log
+npm error A complete log of this run can be found in: /home/minhchung/.npm/_logs/2026-04-16T11_43_57_678Z-debug-0.log
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/les
+sons/bai5_2/ac-hardhat-template$ npm hardhat run test
+Unknown command: "hardhat"
+
+To see a list of supported npm commands, run:
+  npm help
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat run test
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+Error: Cannot find module '/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template/test'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ cd ..
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2$ cd ac-hardhat-template/
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ ls
+README.md  cache      data    deployments        node_modules       package.json  test           yarn.lock
+artifacts  contracts  deploy  hardhat.config.ts  package-lock.json  scripts       tsconfig.json
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+
+
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat compile
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+Nothing to compile
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ rm -rf artifacts cache
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat compile
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+Compiled 1 Solidity file successfully (evm target: paris).
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat test
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+    
+
+  Counter
+Deploying Counter contract...
+    Deployment
+      ✔ Should set the initial count to 0 (191ms)
+    Increment
+      ✔ Should increment the count by 1
+
+
+  2 passing (17s)
+
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat run scripts/test.ts
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+Deploying contracts with the account:  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Error: No Contract deployed with name: Counter
+    at getContract (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template/node_modules/hardhat-deploy-ethers/src/helpers.ts:149:11)
+    at async main (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template/scripts/test.ts:8:28)
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat deploy
+? Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+Nothing to compile
+====================
+hardhat
+====================
+====================
+Deploy Counter Contract
+====================
+deploying "Counter" (tx: 0x913647a140ddd12ced9d06ff1b9f73730d6d5e7312987986d5e814ec3d7f5bef)...: deployed at 0x5FbDB2315678afecb367f032d93F642f64180aa3 with 107419 gas
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat run scripts/test.ts
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+
+Deploying contracts with the account:  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Error: No Contract deployed with name: Counter
+    at getContract (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template/node_modules/hardhat-deploy-ethers/src/helpers.ts:149:11)
+    at async main (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template/scripts/test.ts:8:28)
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npm install @typechain/hardhat @typechain/ethers-v6 --save-dev
+npx hardhat compile
+npm warn deprecated glob@7.1.7: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+
+added 41 packages, and audited 372 packages in 19s
+
+126 packages are looking for funding
+  run `npm fund` for details
+
+29 vulnerabilities (14 low, 2 moderate, 9 high, 4 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+
+Nothing to compile
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat run scripts/test.ts --network localhost
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+
+/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+error TS5011: The common source directory of 'tsconfig.json' is './scripts'. The 'rootDir' setting must be explicitly set to this or another path to adjust your output's file layout.
+  Visit https://aka.ms/ts6 for migration information.
+
+    at createTSError (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/node_modules/ts-node/src/index.ts:863:19)
+    at /mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Object.require.extensions.<computed> [as .ts] (/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12) {
+  diagnosticCodes: [ 5011 ]
+}
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat run scripts/test.ts --network localhost
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Counter address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Current count is: 1
+
+
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ npx hardhat node
+⠏^C
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd 
+-AC-Blockchain-Developer-Foundations-/ Smart contract/
+Smart Contract Security/               Tuan 1/
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd ./-AC-Blockchain-Developer-Foundations-/
+.git/         lessons/      node_modules/ 
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN$ cd ./-AC-Blockchain-Developer-Foundations-/lessons/
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons$ ls
+bai1_1  bai2_3  bai3_2  bai4_2  bai5_2  bai6_1  bai7_1
+bai2_1  bai3_1  bai4_1  bai4_3  bai5_3  bai6_3  bai7_2
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons$ cd bai5_2
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2$ ls
+README.md  ac-hardhat-template  test.ts
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2$ npx hardhat node
+
+WARNING: You are using Node.js 20.20.2 which is not supported by Hardhat.
+Please upgrade to 22.10.0 or a later LTS version (even major version number)
+
+Error HHE3: No Hardhat config file found.
+
+You can initialize a new project by running Hardhat with --init
+
+For more info go to https://hardhat.org/HHE3 or run Hardhat with --show-stack-traces
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2$ cd ac-hardhat-template/
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ ls
+README.md  contracts  deployments        package-lock.json  test
+artifacts  data       hardhat.config.ts  package.json       tsconfig.json
+cache      deploy     node_modules       scripts            yarn.lock
+minhchung@DESKTOP-IE9NH89:/mnt/d/APPS CYCLONE BLOCKCHAIN INTERN/-AC-Blockchain-Developer-Foundations-/lessons/bai5_2/ac-hardhat-template$ npx hardhat node
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+
+Nothing to compile
+====================
+hardhat
+====================
+====================
+Deploy Counter Contract
+====================
+deploying "Counter" (tx: 0x913647a140ddd12ced9d06ff1b9f73730d6d5e7312987986d5e814ec3d7f5bef)...: deployed at 0x5FbDB2315678afecb367f032d93F642f64180aa3 with 107419 gas
+Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
+
+Accounts
+========
+
+WARNING: These accounts, and their private keys, are publicly known.
+Any funds sent to them on Mainnet or any other live network WILL BE LOST.
+
+Account #0: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 (10000 ETH)
+Private Key: 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+
+Account #1: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 (10000 ETH)
+Private Key: 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
+
+Account #2: 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC (10000 ETH)
+Private Key: 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a
+
+Account #3: 0x90F79bf6EB2c4f870365E785982E1f101E93b906 (10000 ETH)
+Private Key: 0x7c852118294e51e653712a81e05800f419141751be58f605c371e15141b007a6
+
+Account #4: 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65 (10000 ETH)
+Private Key: 0x47e179ec197488593b187f80a00eb0da91f1b9d0b13f8733639f19c30a34926a
+
+Account #5: 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc (10000 ETH)
+Private Key: 0x8b3a350cf5c34c9194ca85829a2df0ec3153be0318b5e2d3348e872092edffba
+
+Account #6: 0x976EA74026E726554dB657fA54763abd0C3a0aa9 (10000 ETH)
+Private Key: 0x92db14e403b83dfe3df233f83dfa3a0d7096f21ca9b0d6d6b8d88b2b4ec1564e
+
+Account #7: 0x14dC79964da2C08b23698B3D3cc7Ca32193d9955 (10000 ETH)
+Private Key: 0x4bbbf85ce3377467afe5d46f804f221813b2bb87f24d81f60f1fcdbf7cbf4356
+
+Account #8: 0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f (10000 ETH)
+Private Key: 0xdbda1821b80551c9d65939329250298aa3472ba22feea921c0cf5d620ea67b97
+
+Account #9: 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 (10000 ETH)
+Private Key: 0x2a871d0798f97d79848a013d4936a73bf4cc922c825d33c1cf7073dff6d409c6
+
+Account #10: 0xBcd4042DE499D14e55001CcbB24a551F3b954096 (10000 ETH)
+Private Key: 0xf214f2b2cd398c806f84e317254e0f0b801d0643303237d97a22a48e01628897
+
+Account #11: 0x71bE63f3384f5fb98995898A86B02Fb2426c5788 (10000 ETH)
+Private Key: 0x701b615bbdfb9de65240bc28bd21bbc0d996645a3dd57e7b12bc2bdf6f192c82
+
+Account #12: 0xFABB0ac9d68B0B445fB7357272Ff202C5651694a (10000 ETH)
+Private Key: 0xa267530f49f8280200edf313ee7af6b827f2a8bce2897751d06a843f644967b1
+
+Account #13: 0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec (10000 ETH)
+Private Key: 0x47c99abed3324a2707c28affff1267e45918ec8c3f20b8aa892e8b065d2942dd
+
+Account #14: 0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097 (10000 ETH)
+Private Key: 0xc526ee95bf44d8fc405a158bb884d9d1238d99f0612e9f33d006bb0789009aaa
+
+Account #15: 0xcd3B766CCDd6AE721141F452C550Ca635964ce71 (10000 ETH)
+Private Key: 0x8166f546bab6da521a8369cab06c5d2b9e46670292d85c875ee9ec20e84ffb61
+
+Account #16: 0x2546BcD3c84621e976D8185a91A922aE77ECEc30 (10000 ETH)
+Private Key: 0xea6c44ac03bff858b476bba40716402b03e41b8e97e276d1baec7c37d42484a0
+
+Account #17: 0xbDA5747bFD65F08deb54cb465eB87D40e51B197E (10000 ETH)
+Private Key: 0x689af8efa8c651a91ad287602527f3af2fe9f6501a7ac4b061667b5a93e037fd
+
+Account #18: 0xdD2FD4581271e230360230F9337D5c0430Bf44C0 (10000 ETH)
+Private Key: 0xde9be858da4a475276426320d5e9262ecfc3ba460bfac56360bfa6c4c28b4ee0
+
+Account #19: 0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199 (10000 ETH)
+Private Key: 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e
+
+WARNING: These accounts, and their private keys, are publicly known.
+Any funds sent to them on Mainnet or any other live network WILL BE LOST.
+
+eth_accounts
+  Contract deployment: Counter
+  Contract address:    0x5fbdb2315678afecb367f032d93f642f64180aa3
+  Transaction:         0x913647a140ddd12ced9d06ff1b9f73730d6d5e7312987986d5e814ec3d7f5bef
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  Value:               0 ETH
+  Gas used:            107419 of 107419
+  Block #1:            0x39f68e0a4215dd0262b100f566f7fae54453848c6b7dd575d482c2c533b8acff
+  Mined empty block #2 with base fee 766016632
+
+hardhat_metadata (20)
+eth_chainId
+eth_accounts
+hardhat_metadata (20)
+eth_blockNumber
+eth_getBlockByNumber
+eth_feeHistory
+eth_maxPriorityFeePerGas
+eth_sendTransaction
+  Contract call:       Counter#increment
+  Transaction:         0x6d81279b186f2c8ab86dea7a7feeb74e03fa9c5c12d34139a765c21b575b09e1
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fbdb2315678afecb367f032d93f642f64180aa3
+  Value:               0 ETH
+  Gas used:            43373 of 16777216
+  Block #3:            0x397601715b2afb419a35f138a10b7a99f7df0751b34f7ffc9b579c19f8afb0ad
+
+eth_getTransactionByHash
+eth_getTransactionReceipt
+eth_call
+  Contract call:       Counter#getCount
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fbdb2315678afecb367f032d93f642f64180aa3
+
+^C

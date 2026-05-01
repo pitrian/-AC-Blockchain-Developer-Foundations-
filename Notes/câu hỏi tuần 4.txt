@@ -1,0 +1,52 @@
+1.
+msg.sender
+msg.value
+block.timestamp
+block.number
+mấy cái này nó là cái gì, ý nghỉa nó là cái gì
+
+2.chúng ta se có 1 function tiếp theo được gọi là function voteETH
+định nghỉa: người dùng trả 0.00001 ETH để trả cho ứng viên
+
+pseudo code
+	-tôi muốn thay đổi vote/ tôi vote nhiều ứng cử viên
+	-lần đầu ko trả tiền
+	-phải song lần vote đầu mới được vote?
+=========================
+
+3. ý nghia của value trong etherscan là gì
+
+Gemini đã nói
+Trong giao dịch Ethereum (và các mạng blockchain tương tự), chỉ số Value đại diện cho số lượng tiền mã hóa (ETH) được chuyển đi trực tiếp từ ví người gửi sang ví người nhận.
+
+Dưới đây là các chi tiết cụ thể dựa trên hình ảnh bạn cung cấp:
+
+1. Ý nghĩa con số
+Giá trị thực tế: 0.0456225227274 ETH. Đây là số tiền mà người nhận sẽ thực sự nhận được vào số dư ví của họ.
+
+Giá trị quy đổi: $99.10. Đây là giá trị của lượng ETH đó tính theo đơn vị USD tại thời điểm giao dịch diễn ra.
+
+2. Phân biệt Value và Transaction Fee
+Một sai lầm phổ biến là nhầm lẫn giữa số tiền chuyển đi và chi phí gửi.
+
+Value: Là tiền bạn gửi cho bạn bè hoặc chuyển giữa các ví.
+
+Transaction Fee (Gas Fee): Là "phí dịch vụ" bạn trả cho mạng lưới để xử lý giao dịch đó. Trong hình, phí này rất rẻ, chỉ khoảng $0.004753.
+
+3. Tại sao Value đôi khi bằng 0?
+Nếu bạn thực hiện các thao tác như:
+
+Mint NFT
+
+Hoán đổi (Swap) trên Uniswap
+
+Phê duyệt quyền sử dụng token (Approve)
+
+Thì dòng Value thường sẽ hiển thị là 0 ETH. Lúc đó, mục đích của giao dịch không phải là gửi ETH, mà là gửi một "lệnh" (Input Data) để tương tác với hợp đồng thông minh.
+
+Tóm lại: Trong trường hợp này, đây là một lệnh chuyển tiền đơn thuần, người gửi đã chuyển đi khoảng 0.0456 ETH sang địa chỉ ví nhận.
+
+============================
+4. coi cái state nó có gì nửa
+5. coi cái log nó là gì nửa, là cái gì, tại sao có được
+https://gemini.google.com/app/f0d965d1d09c8893?hl=vi

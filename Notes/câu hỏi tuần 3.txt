@@ -1,0 +1,50 @@
+1.thế thì tại sao ta cần ve ra nhiều volidity vậy, ko dùng public luôn, private ,,
+2.sau khi làm bài tập remis, lướt sún transaction đoạn input data , 
+nó là cái gì và nó được cấu tạo ntn 
+
+=================================================
+1. Tại sao cần nhiều loại "Visibility" (Public, Private,...) thay vì dùng Public hết?
+Trong lập trình Smart Contract (Solidity), việc phân chia public, private, internal, và external không chỉ là để "giấu" thông tin, mà chủ yếu là để quản lý quyền truy cập và tối ưu chi phí (Gas).
+
+Tính bảo mật và logic (Access Control): Nếu mọi hàm đều là public, bất kỳ ai cũng có thể gọi các hàm quan trọng (ví dụ: hàm rút tiền, hàm thay đổi chủ sở hữu). Việc đặt private hoặc internal giúp đảm bảo chỉ có các hàm bên trong hợp đồng mới có thể kích hoạt các logic nhạy cảm này.
+
+Tiết kiệm Gas: Đây là lý do thực dụng nhất.
+
+Các hàm external thường rẻ hơn public khi nhận dữ liệu lớn (như mảng) vì chúng đọc dữ liệu trực tiếp từ calldata thay vì copy vào bộ nhớ memory.
+
+Sử dụng đúng loại Visibility giúp EVM (Máy ảo Ethereum) xử lý mã hiệu quả hơn.
+
+Tính đóng gói (Encapsulation): Giúp mã nguồn sạch sẽ. Bạn chỉ "show" ra những gì người dùng cần tương tác, còn những logic tính toán trung gian thì nên ẩn đi để tránh nhầm lẫn.
+
+Lưu ý quan trọng: private trong Blockchain không có nghĩa là bí mật. Vì mọi dữ liệu trên Blockchain đều công khai, bất kỳ ai cũng có thể đọc giá trị của một biến private bằng cách soi vào trạng thái của block. private ở đây chỉ có nghĩa là "các hợp đồng khác không thể gọi trực tiếp trong code".
+
+
+
+2. Input Data là gì và cấu tạo như thế nào?
+Nhìn vào hình ảnh bạn gửi, phần Input Data hiển thị là 0x. Điều này có nghĩa là bạn vừa thực hiện một giao dịch chuyển ETH thuần túy (không gọi hàm, không gửi dữ liệu). Tuy nhiên, khi bạn làm bài tập trên Remix và gọi một hàm (ví dụ: store(123)), phần này sẽ có những dãy số dài.
+
+Cấu tạo của Input Data:
+Input Data (hay còn gọi là calldata) được cấu tạo từ 2 phần chính theo chuẩn ABI (Application Binary Interface):
+
+Function Selector (4 bytes đầu tiên): * Đây là "ID" của cái hàm bạn muốn gọi.
+
+Nó được tạo ra bằng cách lấy mã băm Keccak-256 của tên hàm và các kiểu dữ liệu tham số.
+
+Ví dụ: Hàm transfer(address,uint256) sẽ có selector là 0xa9059cbb.
+
+Function Arguments (Các tham số truyền vào):
+
+Mỗi tham số bạn truyền vào (như địa chỉ ví, số lượng token) sẽ được mã hóa thành các đoạn dữ liệu dài 32 bytes (64 ký tự hex) và nối tiếp sau 4 bytes đầu tiên.
+
+Ví dụ thực tế:
+Nếu bạn gọi hàm setValue(uint256) với giá trị là 1:
+
+4 bytes đầu: 0x55241077 (Mã hóa của tên hàm setValue(uint256)).
+
+32 bytes tiếp theo: 0000000000000000000000000000000000000000000000000000000000000001 (Số 1 được viết dưới dạng Hex).
+
+Kết quả Input Data: 0x55241077000000...001.
+
+1 eth= 10^9 gwei
+1 eth = 10^18 wei
+1 bitcoin = 10^9 satoshi

@@ -1,0 +1,11 @@
+you acts a master solidity smart contracct and nodejs developer. 
+your task is complete work in bai7_1, is write a smart contract name 'MyMintableTokena',
+ name token is Cren, symbol token is CR3,then write script deploy to deploy contract
+ and mint 1000 token for deployer and printf balance of deployer.
+ , specially, this token can extra mint anytime if want, Chỉ Owner (người sở hữu)
+ mới có quyền in thêm tiền.Kế thừa Ownable.sol, dùng onlyOwner.
+guidelines: 1.read description task in @bai7_1/README.md 
+2.fill code in @bai7_1/test.ts 
+
+
+capstone:
